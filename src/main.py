@@ -53,6 +53,9 @@ class train(Node):
 
         self.main_loop = self.create_service(Empty,"/init",self.train)
         self.exec = self.create_service(Empty,'/start',self.test_mujoco)
+        self.create_service(Empty,"/start_gazebo",self.test)
+
+
         # self.rate = self.create_rate(500)
 
 
