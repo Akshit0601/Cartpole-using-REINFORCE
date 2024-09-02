@@ -1,5 +1,5 @@
 # Cartpole using REINFORCE 
-Implementation the REINFORCE algorithm, a classic policy gradient method, to solve the CartPole problem. Policy is trained in **Cartpole-v4 in Open-AI Gymnasium environment** using **Mujoco**.
+Implementation the REINFORCE algorithm, a classic policy gradient method, to solve the CartPole problem. Policy is trained in **Cartpole-v4 in Open-AI Gymnasium environment** using **Mujoco** and tested in **Gazebo-Classic and Mujoco**.
 
 # Dependecies
 - [ROS2 HUMBLE](https://docs.ros.org/en/humble/Installation.html)
